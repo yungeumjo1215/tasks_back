@@ -3,6 +3,8 @@ const PORT = 8000;
 const express = require("express");
 const cors = require("cors");
 
+// 172.31.81.71
+
 const app = express();
 app.use(cors());
 app.use(express.json());
